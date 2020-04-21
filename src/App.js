@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import virus from './img/virus.png';
 import './App.css';
 
+import StatisticsComponent from "./components/statistics.component";
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <StatisticsComponent />
     </div>
   );
 }
