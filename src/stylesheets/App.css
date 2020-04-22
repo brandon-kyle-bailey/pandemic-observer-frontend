@@ -1,0 +1,33 @@
+.App {
+  height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  flex: 1 1 0px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.App-header > * {
+  flex: 1 1 1;
+}
+
+
+img {
+  width: auto;
+  height: 50%;
+}
+
+.statistics-list {
+  text-align: start;
+  display: block;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
