@@ -38,7 +38,7 @@ function StatisticsComponent() {
     };
 
     useEffect(() => {
-        fetch('/summary/all')
+        fetch('/api/summary/all')
         .then((res) => {
             return res.json();
         })
