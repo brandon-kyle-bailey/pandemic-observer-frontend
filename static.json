@@ -1,7 +1,11 @@
 {
-  "proxies": {
-    "/api/": {
-      "origin": "https://pandemic-observer-backend.herokuapp.com/"
+    "root": "build/",
+    "routes": {
+        "/**": "index.html"
+    },
+    "proxies": {
+        "/api/": {
+            "origin": "https://pandemic-observer-backend.herokuapp.com/"
+        }
     }
-  }
 }
