@@ -2,6 +2,7 @@
   "name": "pandemic-observer-frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://pandemic-observer-backend.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
